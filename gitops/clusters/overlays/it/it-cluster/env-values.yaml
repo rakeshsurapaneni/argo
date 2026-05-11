@@ -8,7 +8,7 @@ data:
   CONTROL_PLANE_VIP: 10.42.163.148  # e.g. 10.x.x.148
   LB_IP_START: 10.42.163.149              # e.g. 10.x.x.149
   LB_IP_END: 10.42.163.151                  # e.g. 10.x.x.151
-  PC_URL: "https://10.38.241.7:9440/"               # e.g. https://10.x.x.7:9440
+  PC_URL: "https://10.42.163.7:9440/"               # e.g. https://10.x.x.7:9440
   PRISM_ELEMENT: "PHX-POC256"
   OS_IMAGE_NAME: "nkp-rocky-9.7-release-cis-1.34.3-20260316170119.qcow2"
   NETWORK_NAME: secondary   # e.g. primary or secondary (must match the subnet used in cluster config)
